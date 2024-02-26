@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>async await</title>
+  </head>
+  <body>
+    <div id="display"></div>
+    <script>
+      const getData = async () => {
+        try {
+          const response = await fetch(
+            "https://api.escuelajs.co/api/v1/products"
+          );
+          const data = await response.json();
+          console.log(typeof data);
+          let display = document.querySelector("#display");
+          for (const val in data) {
+            display.innerHTML = data[val].title;
+          }
+          //   data.map((item) => {
+          //     display.innerHTML = item.title;
+          //   });
+        } catch (error) {
+          console.log(error);
+        }
+      };
+
+      getData();
+    </script>
+  </body>
+</html>

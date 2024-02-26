@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fact about Dogs</title>
+  </head>
+  <body onload="fetchData()">
+    <h1 id="facts"></h1>
+    <script>
+      const URL = "http://dog-api.kinduff.com/api/facts?number=2";
+      const fetchData = async () => {
+        const response = await fetch(URL, { mode: "no-cors" });
+
+        const data = await response.json();
+        console.log(data);
+
+        //document.querySelector("#facts").innerHTML = data;
+      };
+
+      //fetchData();
+    </script>
+  </body>
+</html>
