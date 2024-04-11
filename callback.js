@@ -1,5 +1,5 @@
-//? Higher order function is
-//? function returning a function
+//? Higher order function is function returning a function
+
 //? function which accepts function as argument
 // let getSum = (x, y, result) => {
 //   let sum = x + y;

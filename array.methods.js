@@ -10,7 +10,7 @@
 // studentList.pop();
 // console.log(studentList);
 
-//? unshift() => Add item in array from start index
+//? unshift() => Add item in array from start (0)index
 
 // studentList.unshift("Suresh", "Ramesh");
 // console.log(studentList);

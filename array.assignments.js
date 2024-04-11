@@ -34,23 +34,23 @@
 // });
 
 const checkOddOrEven = (num) => {
-    let remainder = num % 2;
-  
-    let result;
-  
-    if (remainder === 0) {
-      result = "even";
-    } else {
-      result = "odd";
-    }
-  
-    return result;
-  };
-  
-  const numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-  
-  numbers.forEach((item, index, self) => {
-    const result = checkOddOrEven(item);
-  
-    console.log(${item} is ${result});
-  });
+  let remainder = num % 2;
+
+  let result;
+
+  if (remainder === 0) {
+    result = "even";
+  } else {
+    result = "odd";
+  }
+
+  return result;
+};
+
+const numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+numbers.forEach((item, index, self) => {
+  const result = checkOddOrEven(item);
+
+  console.log(`${item} is ${result}`);
+});

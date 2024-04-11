@@ -16,3 +16,5 @@ console.log(z);
 let p = 3;
 p **= 3;
 console.log(p);
+
+console.log("2 to the power three is:", 2 ** 3);

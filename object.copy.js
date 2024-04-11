@@ -17,7 +17,7 @@ const studentDetails = {
 //Spread Operator(...)
 //copy objects only if the object is not nested object
 
-const students = { ...studentDetails };
+// const students = { ...studentDetails };
 
 //StructuredClone():- Deep Copy
 

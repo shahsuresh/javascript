@@ -24,5 +24,5 @@ let conNumber = +str;
 console.log(`-------------------------------`);
 console.log(conNumber, typeof conNumber);
 // As the string str='nep10' is the combination of string and Number, It cannot be converted into Number using
-// parseInt() or Number() type conversion method. but if the srt contains numbered string at the begning including text ,
+// parseInt() or Number() type conversion method. but if the string contains numbered string at the begning including text ,
 // the number part only can be converted into Number type using parseInt() method.

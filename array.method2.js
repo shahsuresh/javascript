@@ -1,3 +1,4 @@
+//? filter() :=> creates a new array with array elements that pass a test.
 // Strings whose length is greater than 6
 // const words = ["spray", "elite", "exuberant", "destruction", "present"];
 
@@ -8,7 +9,9 @@
 
 //? slice,splice,reverse methods in array
 
-//? reduce() =>
+//? reduce() => runs a function on each array element to produce (reduce it to) a single value.
+// this method works from left-to-right in the array
+// The reduce() method does not reduce the original array.
 
 // const scores = [45, 55, 62, 24];
 // const totalScore = scores.reduce((sum, item, index, self) => {
@@ -23,5 +26,5 @@ let values = [10, 25, 35, 5];
 const totalProduct = values.reduce((product, item) => {
   product = product * item;
   return product;
-}, 1);
+});
 console.log(totalProduct);

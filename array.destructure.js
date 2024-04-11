@@ -28,3 +28,12 @@ console.log(arr);
 //sort in descending order
 
 console.log(arr.sort().reverse());
+
+//?==sorting array with numbers=========
+let numArray = [1, 4, 2, 3];
+
+//ascending order
+console.log(numArray.sort());
+
+//descending order
+console.log(numArray.sort().reverse());

@@ -5,11 +5,11 @@
 // ? though node is single threaded,
 // ? it implement event loop to prevent blocking of  code
 
-// ? the code which takes time
-// ? data base connection
-// ?image processing
-// ?for loop billion times
-// ? api hoisting
+// ?the code which takes time
+// data base connection
+// image processing
+// for loop billion times
+// api hoisting
 
 // ? synchronous =>occurring at the same time
 // ?asynchronous => which takes time
