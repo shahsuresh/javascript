@@ -20,7 +20,7 @@
 // constant => which cannot be reassigned
 // const x = "hello";
 
-// non-primitive data types=> object
+//? non-primitive data types=> object
 
 // const nums = [1, 2, 3];
 // nums = [5, 7];

@@ -1,4 +1,4 @@
-//Non-primitive Data Type
+//* Non-primitive Data Type
 // let student = {
 //   firstName: "Suresh",
 //   lastName: "Shah",
@@ -13,11 +13,11 @@
 // console.log(student.firstName, student.lastName);
 // console.log(student.age);
 
-//delete operation
+//? delete operation
 // delete student.age;
 // console.log(student);
 
-//update and insert operation//upsert=> Update or Insert
+//?update and insert operation//upsert=> Update or Insert
 
 const countryDetails = {
   name: "Nepal",
@@ -29,6 +29,6 @@ countryDetails.district = "77"; // Add operation
 countryDetails["states"] = "7"; //Add operation
 console.log(countryDetails);
 
-//Update Operation
+//* Update Operation
 countryDetails.language = "Nepali,English";
 console.log(countryDetails);

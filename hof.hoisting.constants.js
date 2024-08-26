@@ -44,7 +44,7 @@
 
 // console.log(result);
 
-// closure => function with its lexical environment
+//* closure => function with its lexical environment
 const getProduct = (num1) => {
   const doMultiply = (num2) => {
     let product = num1 * num2;

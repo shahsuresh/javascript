@@ -3,11 +3,11 @@ const a = 2,
   c = 5,
   d = 10,
   e = 9;
-//a+b<c OR d*a>=c  // result: True
+//* a+b<c OR d*a>=c  // result: True
 let result1 = a + b < c || d * a > c;
 console.log(result1);
 
-//(a**c===d AND d===e+a-1)  OR d % e!==1  // Result: False
+//* (a**c===d AND d===e+a-1)  OR d % e!==1  // Result: False
 let result2 = (a ** c === d && d === e + a - 1) || d % e !== 1;
 console.log(result2);
 

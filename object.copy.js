@@ -1,4 +1,4 @@
-//spread Copy
+//* spread Copy
 const studentDetails = {
   name: "Suresh",
   lastname: "Shah",
@@ -9,16 +9,16 @@ const studentDetails = {
 //const students = studentDetails;
 //console.log(students);
 
-// Copy By reference
+//* Copy By reference
 // students.name = "Dinesh";
 // console.log(studentDetails);
 // console.log(students);
 
-//Spread Operator(...)
+//* Spread Operator(...)
 //copy objects only if the object is not nested object
 
 // const students = { ...studentDetails };
 
-//StructuredClone():- Deep Copy
+//* StructuredClone():- Deep Copy
 
 const students = structuredClone(studentDetails);

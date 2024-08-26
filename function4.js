@@ -1,4 +1,4 @@
-// Write a function that takes “add”/“subtract”/”multiply”/”divide”
+//* Write a function that takes “add”/“subtract”/”multiply”/”divide”
 // and two numbers as parameters and perform appropriate operations.
 function arithmeticOperation(operation, num1, num2) {
   if (operation === "add") {

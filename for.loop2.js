@@ -1,4 +1,4 @@
-//program to calculate sum of numbers from 1 to 10
+//* program to calculate sum of numbers from 1 to 10
 // let sumOfNumbers = 0;
 // for (let i = 0; i <= 10; i++) {
 //   sumOfNumbers = sumOfNumbers + i;

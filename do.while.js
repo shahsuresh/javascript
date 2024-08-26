@@ -1,4 +1,4 @@
-//syntax
+//?syntax
 //initial value;
 //do{
 //     some code Here

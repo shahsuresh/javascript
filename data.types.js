@@ -1,11 +1,12 @@
 //!Data type Examples
-// Data Types
-// 1. String
-// 2. Number
-// 3. Boolean
-// 4. Undefined
-// 5. Null
-// 6. Object
+//? Data Types
+//* 1. String
+//* 2. Number
+//* 3. Boolean
+//* 4. Undefined
+//* 5. Null
+//* 6. Object
+
 let x = " Kathmandu";
 console.log(typeof x);
 let y = 123;

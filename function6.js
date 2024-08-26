@@ -9,8 +9,8 @@
 // calculateAverage(9, 6, 3);
 
 //=================================================================//
-//WAF that converts dollars into cents.
-// function dollarsToCent(dollars) {
+//* WAF that converts dollars into cents.
+//  function dollarsToCent(dollars) {
 //   let cent = dollars * 100;
 //   return cent;
 // }
