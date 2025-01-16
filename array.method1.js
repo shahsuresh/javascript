@@ -4,7 +4,7 @@ const voter = ages.find((age) => {
   return age > 17;
 });
 
-console.log(` voters:${voter}`);
+console.log(` voters:${voter}`); // Output: Voters: 20
 
 //? push() :=> adds element in the last of array
 // const nations = ["Nepal", "India", "China", "Bhutan"];

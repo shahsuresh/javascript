@@ -15,9 +15,19 @@
 // let z = 9;
 
 // console.log(z);
-
+//#======================
 sayHi();
 
 function sayHi() {
   console.log("HI");
 }
+
+//Output: HI
+
+//#======================
+sayHi();
+const sayHi = () => {
+  console.log("HI");
+};
+
+//Output: Error, Cannot access 'sayHi' before initialization

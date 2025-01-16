@@ -6,7 +6,7 @@
 // ? it implement event loop to prevent blocking of  code
 
 // ?the code which takes time
-// data base connection
+// database connection
 // image processing
 // for loop billion times
 // api hoisting

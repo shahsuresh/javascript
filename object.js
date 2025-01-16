@@ -30,5 +30,5 @@ countryDetails["states"] = "7"; //Add operation
 console.log(countryDetails);
 
 //* Update Operation
-countryDetails.language = "Nepali,English";
+countryDetails.language = "Maithili,English";
 console.log(countryDetails);

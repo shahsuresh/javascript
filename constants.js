@@ -32,7 +32,7 @@
 //? constant cannot be reassigned
 // const country1 = "Nepal";
 // country1 = "India";
-// console.log(country1);
+// console.log(country1); // Output: Error,Assignment to constant variable.
 
 // let nation1 = {
 //   name: "Nepal",
@@ -56,12 +56,12 @@
 
 // console.log(typeof students);
 
-// const valueList = {
-//   0: 5,
-//   1: 10,
-//   2: 15,
-// };
+const valueList = {
+  0: 5,
+  1: 10,
+  2: 15,
+};
 
-// const valueList = [5, 10, 15];
+const valueList = [5, 10, 15];
 
-// console.log(valueList[0]);
+console.log(valueList[0]);
