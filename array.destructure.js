@@ -37,3 +37,11 @@ console.log(numArray.sort());
 
 //descending order
 console.log(numArray.sort().reverse());
+
+//? sorting array with numbers in ascending order
+let numArray2 = [1, 4, 62, 3, 32, -1];
+
+console.log(numArray2.sort((a, b) => a - b));
+
+//? sorting array with numbers in descending order
+console.log(numArray2.sort((a, b) => b - a));
